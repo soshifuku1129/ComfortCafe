@@ -44,6 +44,21 @@ a {
     margin-top: 20%;
 }
 
+.main-nav li a {
+    margin-left: 36px;
+    color: #1b0704;
+}
+
+.main-nav li a:hover {
+    color: #0ba;
+}
+
+.main-visual {
+    text-align: center;
+    margin-top: 20%;
+    color: #1b0704;
+}
+
 .main-visual p {
     font-size: 1.2rem;
     margin: 10px 0 40px;
@@ -65,5 +80,16 @@ a {
 }
 
 .btn:hover {
-    background-color: #0099dd;
+    background-color: #0090dd;
+}
+
+#top {
+    min-height: 100vh;
+    background-image: url(./img/cafemain.jpg);
+    background-size: cover;
+}
+
+.heading a {
+    font-family: 'Times New Roman', Times, serif;
+    color: #1b0704;
 }
